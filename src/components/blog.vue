@@ -1,16 +1,14 @@
 <template>
 	<div class="blog">
 		<section v-for="item in list">
-			<div>{{item.id}}</div>
-			<div>{{item.date | formateDate}}</div>
-			<div>{{item.desc}}</div>
-			<div><i v-for="tag in item.tag">{{tag}}</i></div>
+			<ablock info="item"></ablock>
 		</section>
 		<page />
 	</div>
 </template>
 <script>
 	import axios from 'axios'
+	import ablock from '@/components/common/ablock'
 	import pages from '@/components/pages'
 	export default {
 		component:{
