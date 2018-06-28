@@ -1,7 +1,8 @@
 <template>
 	<div class="other">
-		<section>
-			
+		<section v-for="x in items">
+			<div><img src=""></div>
+			<div class="desc"></div>
 		</section>
 	</div>
 </template>
@@ -11,7 +12,9 @@
 
 		},
 		data () {
-			return {}
+			return {
+				items:[]
+			}
 		},
 		created () {
 
