@@ -1,0 +1,14 @@
+/* 
+	@ common css
+	@ create at 2018-06-28
+	@ update at 2018-06-28
+	@ power by lilunze
+ */
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
