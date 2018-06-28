@@ -1,6 +1,6 @@
 <template>
 	<div class="jquery">
-		
+		<ablock info="info"></ablock>
 	</div>
 </template>
 <script>
@@ -8,6 +8,11 @@
 	export default {
 		component:{
 			ablock
+		},
+		data (){
+			return {
+				info:[]
+			}
 		}
 	}
 </script>
