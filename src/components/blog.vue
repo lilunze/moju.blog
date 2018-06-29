@@ -1,5 +1,13 @@
 <template>
 	<div class="blog">
+		<div class="classify">
+			<router-link class="all" to="./all">全部</router-link>
+			<router-link class="all" to="./all">vue</router-link>
+			<router-link class="all" to="./all">javascript</router-link>
+			<router-link class="all" to="./all">react</router-link>
+			<router-link class="all" to="./all">angular</router-link>
+			<router-link class="all" to="./all">移动端</router-link>
+		</div>
 		<section v-for="item in list">
 			<ablock info="item"></ablock>
 		</section>
