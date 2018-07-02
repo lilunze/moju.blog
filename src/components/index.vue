@@ -16,6 +16,7 @@
 					<span class="text">GOOD <span style="color:#C9A94B">COFFEE</span></span>
 				</div>
 				<div class="center">
+					<div class="circle"></div>
 					<p class="avatar"><img src="/static/res/avatar.jpg"></p>
 				</div>
 				<div class="right">
@@ -191,6 +192,16 @@
 		text-align: right;
 		padding: 0 40px;
 		box-sizing: border-box;
+	}
+	.copyright i
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 20px;
+		height: 20px;
+		background: url(/static/images/icon/love.png);
+		background-size: 100% 100%;
+		margin-top: 5px;
 	}
 	.main .right li a:hover 
 	{
