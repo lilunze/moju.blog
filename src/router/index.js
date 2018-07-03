@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/components/index'
+import home from '@/components/home'
+import travel from '@/components/travel'
 import blog from '@/components/blog'
 import archives from '@/components/archives'
 import others from '@/components/others'
@@ -13,7 +15,21 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: index
+      component: index,
+      children:[
+        {
+            path:'',
+            component:home
+        },
+        {
+            path:'home',
+            component:home
+        },
+        {
+            path:'travel',
+            component:travel
+        }
+      ]
     },
     {
     	path:'/blog',
