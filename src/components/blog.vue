@@ -1,26 +1,25 @@
 <template>
 	<div class="blog">
 		<div class="classify">
-			<router-link class="all" to="./all">全部</router-link>
-			<router-link class="all" to="./all">vue</router-link>
-			<router-link class="all" to="./all">javascript</router-link>
-			<router-link class="all" to="./all">react</router-link>
-			<router-link class="all" to="./all">angular</router-link>
-			<router-link class="all" to="./all">移动端</router-link>
+			<router-link class="all" to="./blog/all">全部</router-link>
+			<router-link class="all" to="./blog/vue">vue</router-link>
+			<router-link class="all" to="./blog/javascript">javascript</router-link>
+			<router-link class="all" to="./blog/react">react</router-link>
+			<router-link class="all" to="./blog/angular">angular</router-link>
+			<router-link class="all" to="./blog/mobile">移动端</router-link>
 		</div>
-		<section v-for="item in list">
-			<ablock info="item"></ablock>
-		</section>
-		<page />
+
+		<keep-alive>
+			<router-view />
+		</keep-alive>
+
 	</div>
 </template>
 <script>
 	import axios from 'axios'
 	import ablock from '@/components/common/ablock'
-	import pages from '@/components/pages'
 	export default {
 		component:{
-			pages
 		},
 		data () {
 			return {
@@ -49,8 +48,28 @@
 	}
 </script>
 <style scoped>
+	.blog
+	{
+		width: 100%;
+		min-height: 100%;
+		background: #eee;
+	}
 	.classify
 	{
-		
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		background: #fff;
+		text-align: center;
+	}
+	.classify a
+	{
+		font-size: 14px;
+		color: #999;
+		text-decoration: none;
+		display: inline-block;
+		height: 100%;
+		box-sizing: border-box;
+		margin: 0 10px;
 	}
 </style>

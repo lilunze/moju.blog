@@ -5,7 +5,7 @@ import blog from '@/components/blog'
 import archives from '@/components/archives'
 import others from '@/components/others'
 import comment from '@/components/comment'
-import all from '@/components/archives/vue'
+import all from '@/components/archives/all'
 
 Vue.use(Router)
 
@@ -17,17 +17,21 @@ export default new Router({
     },
     {
     	path:'/blog',
-    	component: blog
+    	component: blog,
+        children:[
+            {
+                path:'',
+                component:all
+            },
+            {
+                path:'all',
+                component:all
+            }
+        ]
     },
     {
     	path:'/archives',
-    	component: archives,
-    	children:[
-    		{
-    			path:'',
-    			component:all
-    		}
-    	]
+    	component: archives
     },
     {
     	path:'/others',
