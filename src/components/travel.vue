@@ -27,6 +27,15 @@
 		width: 1400px;
 		margin: 0 auto;
 	}
+	.travel li
+	{
+		display: flex;
+	}
+	.cover
+	{
+		display: inline-block;
+		
+	}
 	
 
 </style>
