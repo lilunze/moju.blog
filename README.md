@@ -22,3 +22,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 [source](https://www.zcool.com.cn/work/ZMjgwNzkwODg=.html)
 [参考](https://www.jianshu.com/p/491609b1c426)
+
+# 图片尺寸
+
+```
+# banner 
+1400px * 560px
+
+# element 
+447px * 245px
+```

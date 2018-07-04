@@ -1,6 +1,6 @@
 <template>
 	<div class="travel">
-		<h1><span>{{list.tag}}</span></h1>
+		<h1 class="title"><span>{{list.tag}}</span></h1>
 		<ul class="list">
 			<li v-for="item in list.list">
 				<p><img :src="item.cover_url"></p>
@@ -30,13 +30,17 @@
 	}
 	.travel .title
 	{
+		line-height: 50px;
 		font-size: 24px;
 		color: #000;
+		margin: 40px 0 0 10px;
 	}
 	.travel .title span
 	{
 		display: inline-block;
-		border-bottom: 3px solid red;
+		padding-left: 10px;
+		line-height: 26px;
+		border-left: 5px solid red;
 	}
 	.travel ul
 	{
