@@ -3,7 +3,7 @@
 		<div class="bottom">
 			<dl>
 				<dt>联系我</dt>
-				<dd><a class="icon-github"></a><a class="icon-weibo"></a><a href="" class="icon-mail"></a></dd>
+				<dd><a class="icon-github" href="https://github.com/lilunze" target="_blank"></a><a class="icon-weibo" href="http://weibo.com/3171937264" target="_blank"></a><a href="mailto:lilunze@hotmail.com" class="icon-mail" target="_blank"></a></dd>
 			</dl>
 			<dl>
 				<dt>关于我</dt>

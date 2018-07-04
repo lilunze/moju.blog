@@ -17,7 +17,7 @@ export default new Router({
       children:[
         {
             path:'',
-            component:home
+            redirect: '/home'
         },
         {
             path:'home',
@@ -36,10 +36,10 @@ export default new Router({
             component:comment
         }
       ]
+    },
+    {
+        path:'/paper',
+        component:comment
     }
-    // {
-    //     path:'/paper',
-    //     component:'paper'
-    // }
   ]
 })

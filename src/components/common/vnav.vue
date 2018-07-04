@@ -76,4 +76,13 @@
 	{
 		width: 100%;
 	}
+	
+	.nav_list li .router-link-active
+	{
+		color: #C9A94B;
+	}
+	.nav_list li .router-link-active:before
+	{
+		width: 100%;
+	}
 </style>
