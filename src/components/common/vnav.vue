@@ -5,7 +5,7 @@
 			<li><router-link to="/home">首页</router-link></li>
 			<li><router-link to="/travel">旅行</router-link></li>
 			<li><router-link to="/blog">博客</router-link></li>
-			<li><router-link to="/index/comment">话题</router-link></li>
+			<li><router-link to="/comment">话题</router-link></li>
 			<li><router-link to="/paper">PAPER</router-link></li>
 		</ul>
 	</nav>

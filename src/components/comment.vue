@@ -1,5 +1,5 @@
 <template>
-	<div class="comment"></div>
+	<div class="comment">暂无内容</div>
 </template>
 <script>
 	export default {

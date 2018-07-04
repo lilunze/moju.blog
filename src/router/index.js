@@ -4,10 +4,8 @@ import index from '@/components/index'
 import home from '@/components/home'
 import travel from '@/components/travel'
 import blog from '@/components/blog'
-import archives from '@/components/archives'
-import others from '@/components/others'
 import comment from '@/components/comment'
-import all from '@/components/archives/all'
+// import paper from '@/components/paper/paper'
 
 Vue.use(Router)
 
@@ -28,34 +26,20 @@ export default new Router({
         {
             path:'travel',
             component:travel
+        },
+        {
+            path:'blog',
+            component:blog
+        },
+        {
+            path:'comment',
+            component:comment
         }
       ]
-    },
-    {
-    	path:'/blog',
-    	component: blog,
-        children:[
-            {
-                path:'',
-                component:all
-            },
-            {
-                path:'all',
-                component:all
-            }
-        ]
-    },
-    {
-    	path:'/archives',
-    	component: archives
-    },
-    {
-    	path:'/others',
-    	component: others
-    },
-    {
-    	path:'/comment',
-    	component: comment
     }
+    // {
+    //     path:'/paper',
+    //     component:'paper'
+    // }
   ]
 })
