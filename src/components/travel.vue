@@ -34,7 +34,6 @@
 	.cover
 	{
 		display: inline-block;
-		
 	}
 	
 
