@@ -7,7 +7,7 @@
 				<p class="stitle">{{item.title}}</p>
 				<p class="desc">
 					<span><i class="author"></i>{{item.author}}</span>
-					<span><i class="date"></i>{{item.date}}</span>
+					<span><i class="date"></i>{{item.date | formateDate}}</span>
 				</p>
 			</li>
 		</ul>
@@ -19,6 +19,19 @@
 			list:{
 				type: Object,
 				default:""
+			}
+		},
+		filters:{
+			formateDate (value) {
+				if(!value) return '';
+
+				value=value.toString();
+				var year=value.substring(0,4);
+				var month=value.substring(4,6);
+				var day=value.substring(6);
+				var date=year + '-' + month + '-' + day;
+
+				return date;
 			}
 		}
 	}
