@@ -1,17 +1,17 @@
 <template>
-	<div class="travel">
+	<router-link to="/travel/v10001" class="travel">
 		<h1 class="title"><span>{{list.tag}}</span></h1>
 		<ul class="list">
 			<li v-for="item in list.list">
 				<p><img :src="item.cover_url"></p>
-				<p class="title">{{item.title}}</p>
+				<p class="stitle">{{item.title}}</p>
 				<p class="desc">
 					<span><i class="author"></i>{{item.author}}</span>
 					<span><i class="date"></i>{{item.date}}</span>
 				</p>
 			</li>
 		</ul>
-	</div>
+	</router-link>
 </template>
 <script>
 	export default {
@@ -27,6 +27,7 @@
 	.travel
 	{
 		width: 100%;
+		text-decoration: none;
 	}
 	.travel .title
 	{
@@ -66,7 +67,7 @@
   		vertical-align: bottom;
 	}
 
-	.travel .list .title
+	.travel .list .stitle
 	{
 		font-size: 16px;
 		color: #333;

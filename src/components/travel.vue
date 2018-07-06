@@ -1,16 +1,11 @@
 <template>
 	<section class="travel">
-		<div>
-			<ablock />
-		</div>
+		<router-view />
 	</section>
 </template>
 <script>
-	import ablock from '@/components/common/ablock'
 	export default {
-		components:{
-			ablock
-		}
+		
 	}
 </script>
 <style scoped>
@@ -19,5 +14,4 @@
 		width: 1400px;
 		margin: 0 auto;
 	}
-	
 </style>
