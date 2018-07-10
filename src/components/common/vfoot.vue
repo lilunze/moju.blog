@@ -25,6 +25,7 @@
 <style scoped>
 	.copyright
 	{
+		font-size: 16px;
 		background: #fff;
 		width: 100%;
 		color: #999;

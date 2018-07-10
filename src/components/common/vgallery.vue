@@ -85,6 +85,7 @@
 		font-size: 16px;
 		color: #333;
 		line-height: 40px;
+		padding-left: 6px;
 	}
 	.travel .desc
 	{

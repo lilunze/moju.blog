@@ -18,6 +18,7 @@
 <style scope>
 	.nav
 	{
+		font-size: 16px;
 		padding: 10px 40px;
 		background: #fff;
 	}

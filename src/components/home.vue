@@ -6,7 +6,7 @@
 			<p class="desc">
 				<span><i class="author"></i> moju</span>
 				<span><i class="date"></i> 2018-07-05</span>
-				<span><i class="classify"></i> 游记</span>
+				<span><i class="icon-travel"></i> 游记</span>
 			</p>
 		</router-link>
 		
@@ -132,9 +132,9 @@
 		background: url(/static/images/icon/date.png);
 		background-size: 100% 100%;
 	}
-	.banner .desc .classigy
+	.banner .desc .icon-travel
 	{
-		background: url(/static/images/icon/classify.png);
+		background: url(/static/images/icon/travel.png);
 		background-size: 100% 100%;
 	}
 
