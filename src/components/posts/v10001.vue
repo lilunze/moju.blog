@@ -57,7 +57,7 @@
 		</p>
 
 		<p class="img">
-			<img src="/static/cover/1.jpg">	
+			<img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/1.jpg">	
 		</p>
 
 		<p class="ugc">
@@ -65,7 +65,7 @@
 		</p>
 
 		<p class="img">
-			<img src="/static/cover/2.jpg">	
+			<img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/2.jpg">	
 		</p>
 
 		<p class="ugc">
@@ -73,7 +73,7 @@
 		</p>
 
 		<p class="img">
-			<img src="/static/cover/3.jpg">	
+			<img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/3.jpg">	
 		</p>
 
 		<p class="ugc">
@@ -81,7 +81,7 @@
 		</p>
 
 		<p class="img">
-			<img src="/static/cover/4.jpg">	
+			<img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/4.jpg">	
 		</p>
 
 		<p class="ugc">
@@ -89,7 +89,7 @@
 		</p>
 
 		<p class="img">
-			<img src="/static/cover/5.jpg">	
+			<img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/5.jpg">	
 		</p>
 
 		<p class="ugc">
@@ -97,7 +97,7 @@
 		</p>
 
 		<p class="img">
-			<img src="/static/cover/6.jpg">	
+			<img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/6.jpg">	
 		</p>
 
 		<p class="sm-title">

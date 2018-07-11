@@ -1,5 +1,5 @@
 <template>
-	<div>这是文章内容</div>
+	<div>测试3</div>
 </template>
 <script>
 	export default {

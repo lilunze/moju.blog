@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<router-link to="/travel/v10001" class="banner">
-			<p><img src="/static/images/banner/banner.jpg"></p>
+			<p><img src="https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v10001/large.jpg"></p>
 			<p class="title">生活不止眼前的苟且，还有远方的枸杞岛</p>
 			<p class="desc">
 				<span><i class="author"></i> moju</span>
@@ -40,37 +40,11 @@
 				},
 				paper:{
 					tag:"Paper",
-					list:[
-						{
-							title:"去枸杞岛旅游是一种什么样的体验",
-							cover_url:"/static/cover/cover-1.jpg",
-							date:"2018-07-03",
-							author:"moju"
-						},
-						{
-							title:"去枸杞岛旅游是一种什么样的体验",
-							cover_url:"/static/cover/cover-2.jpg",
-							date:"2018-07-03",
-							author:"moju"
-						}
-					]
+					list:[]
 				},
 				blog:{
 					tag:"博客",
-					list:[
-						{
-							title:"去枸杞岛旅游是一种什么样的体验",
-							cover_url:"/static/cover/cover-1.jpg",
-							date:"2018-07-03",
-							author:"moju"
-						},
-						{
-							title:"去枸杞岛旅游是一种什么样的体验",
-							cover_url:"/static/cover/cover-2.jpg",
-							date:"2018-07-03",
-							author:"moju"
-						}
-					]
+					list:[]
 				}
 				
 			}
@@ -78,7 +52,12 @@
 		created (){
 			axios.get("/static/db/travel.json").then((res)=>{
 				this.travel.list=res.data.slice(0,3)
-
+			})
+			axios.get("/static/db/hot.json").then((res)=>{
+				this.paper.list=res.data.slice(0,2)
+			})
+			axios.get("/static/db/blog.json").then((res)=>{
+				this.blog.list=res.data.slice(0,2)
 			})
 		}
 	}
@@ -89,6 +68,7 @@
 		display: block;
 		text-decoration: none;
 		width: 1400px;
+		font-size: 0;
 		margin: 30px auto 0;
 		text-align: center;
 	}

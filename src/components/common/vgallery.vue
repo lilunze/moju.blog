@@ -1,17 +1,19 @@
 <template>
-	<router-link to="/travel/v10001" class="travel">
+	<div class="travel">
 		<h1 class="title"><span>{{list.tag}}</span></h1>
-		<ul class="list">
+		<ul class="list">	
 			<li v-for="item in list.list">
+				<router-link :to="item.source">
 				<p><img :src="item.cover_url"></p>
 				<p class="stitle">{{item.title}}</p>
 				<p class="desc">
 					<span><i class="author"></i>{{item.author}}</span>
 					<span><i class="date"></i>{{item.date | formateDate}}</span>
 				</p>
+				</router-link>
 			</li>
 		</ul>
-	</router-link>
+	</div>
 </template>
 <script>
 	export default {
@@ -40,7 +42,7 @@
 	.travel
 	{
 		width: 100%;
-		text-decoration: none;
+		
 	}
 	.travel .title
 	{
@@ -70,7 +72,10 @@
  		font-size: 0;
  		background: #fff;
 	}
-
+	.travel li a
+	{
+		text-decoration: none;
+	}
 	.travel li img
 	{
 		height: 245px;

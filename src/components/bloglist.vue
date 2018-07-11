@@ -1,10 +1,14 @@
 <template>
-	<div class="blog">
-		<router-view />	
+	<div>
+		<ablock />
 	</div>
 </template>
 <script>
+	import ablock from '@/components/common/ablock'
 	export default {
+		components:{
+			ablock
+		},
 		data () {
 			return {
 				list:[]
