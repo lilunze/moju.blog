@@ -3,55 +3,55 @@
 		"id":1,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2001.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2001.jpg",
 		"isfree":"false"
 	},{
 		"id":2,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2002.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2002.jpg",
 		"isfree":"false"
 	},{
 		"id":3,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2003.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2003.jpg",
 		"isfree":"false"
 	},{
 		"id":4,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2004.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2004.jpg",
 		"isfree":"false"
 	},{
 		"id":5,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2005.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2005.jpg",
 		"isfree":"false"
 	},{
 		"id":6,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2006.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2006.jpg",
 		"isfree":"false"
 	},{
 		"id":7,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2007.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2007.jpg",
 		"isfree":"false"
 	},{
 		"id":8,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2008.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2008.jpg",
 		"isfree":"false"
 	},{
 		"id":9,
 		"desc":"",
 		"size":"1920*1200",
-		"source":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2009.jpg",
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/beauty/2009.jpg",
 		"isfree":"false"
 	}
 ]

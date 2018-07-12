@@ -1,6 +1,6 @@
 <template>
 	<nav class="nav">
-		<div class="logo"><img src="/static/logo/logo-m.png"></div>
+		<div class="logo"><img src="/static/logo/logo-x.png"></div>
 		<ul class="nav_list">
 			<li><router-link to="/home">首页</router-link></li>
 			<li><router-link to="/travel">旅行</router-link></li>
@@ -19,16 +19,17 @@
 	.nav
 	{
 		font-size: 16px;
-		padding: 10px 40px;
+		padding: 14px 40px;
 		background: #fff;
 	}
 	.nav .logo
 	{
 		display: inline-block;
-		width: 40px;
+		width: 140px;
 	}
 	.nav .logo img
 	{
+		vertical-align: top;
 		width: 100%;
 	}
 	.nav_list

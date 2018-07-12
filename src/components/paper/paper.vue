@@ -1,9 +1,10 @@
 <template>
   <div class="index">
+    <router-link to="/home" class="tohome"><img src="@/assets/logo/logo-y.png"></router-link>
     <section class="center">
-      <!-- <div><img src="@/assets/image/logo.png"></div> -->
+      <div><img src="@/assets/logo/logo.png"></div>
       <div class="desc">每天獲取來自網絡的精美圖片</div>
-      <div class="enter"><router-link to="/list">進入moju.paper</router-link></div>
+      <div class="enter"><router-link to="/paper/list">進入moju.paper</router-link></div>
       <article>
         <h2>聲明：</h2>
         <p>1.圖片均來源與網絡，僅供個人學習參考</p>
@@ -13,7 +14,7 @@
 
     <footer>
       <div class="copyright">
-        <!-- <p class="source">圖片來源：<img src="../../static/element/baidutupian.png" class="img-1"><img src="../../static/element/tuchong.png" class="img-2"><img src="../../static/element/plxabay.png" class="img-3"><img src="../../static/element/unsplash.png" class="img-4"></p> -->
+        <p class="source">圖片來源：<img src="@/assets/source/baidutupian.png" class="img-1"><img src="@/assets/source/tuchong.png" class="img-2"><img src="@/assets/source/plxabay.png" class="img-3"><img src="@/assets/source/unsplash.png" class="img-4"></p>
         <a href="mailto:mojuc@outlook.com" class="contact">聯繫我們</a>
       </div>
     </footer>
@@ -31,7 +32,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
   .index
   {
     width: 100%;
@@ -42,6 +43,18 @@ export default {
     background-size: 100% auto;  
     color: #fff; 
     font-size: 16px;
+  }
+  .tohome
+  {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 120px;
+  }
+  .tohome img
+  {
+    width: 100%;
+    vertical-align: top;
   }
   .center
   {

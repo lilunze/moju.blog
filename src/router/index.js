@@ -5,7 +5,14 @@ import home from '@/components/home'
 import travel from '@/components/travel'
 import blog from '@/components/blog'
 import comment from '@/components/comment'
+
+// moju.paper
+import pindex from '@/components/paper/index'
 import paper from '@/components/paper/paper'
+import list from '@/components/paper/list'
+import hot from '@/components/paper/hot'
+import landscape from '@/components/paper/landscape'
+import beauty from '@/components/paper/beauty'
 import travellist from '@/components/travellist'
 import bloglist from '@/components/bloglist'
 import v10001 from '@/components/posts/v10001'
@@ -83,7 +90,35 @@ export default new Router({
     },
     {
         path:'/paper',
-        component:paper
+        component:pindex,
+        children:[
+            {
+                path:'',
+                component:paper
+            },
+            {
+                path:'list',
+                component:list,
+                children:[
+                    {
+                        path:'',
+                        redirect:'/paper/list/hot'
+                    },
+                    {
+                        path:'hot',
+                        component:hot
+                    },
+                    {
+                        path:'landscape',
+                        component:landscape
+                    },
+                    {
+                        path:'beauty',
+                        component:beauty
+                    }
+                ]
+            }
+        ]
     }
   ]
 })
