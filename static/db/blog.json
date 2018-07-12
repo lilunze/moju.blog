@@ -9,21 +9,12 @@
 		"cover_url":"/static/cover/cover-3.jpg"
 	},
 	{
-		"id":20002,
-		"title":"JavaScript模块化历程",
-		"date":20180704,
-		"author":"MOJU",
-		"origin":"MOJU",
-		"source":"blog/v20002",
-		"cover_url":"/static/cover/cover-2.jpg"
-	},
-	{
 		"id":20001,
-		"title":"JavaScript模块化历程",
-		"date":20180705,
+		"title":"Vue踩坑记录与总结",
+		"date":20180712,
 		"author":"MOJU",
 		"origin":"MOJU",
 		"source":"blog/v20001",
-		"cover_url":"/static/cover/cover-1.jpg"
+		"cover_url":"https://images-1253872303.cos.ap-shanghai.myqcloud.com/posts/v20001/mid.jpg"
 	}
 ]

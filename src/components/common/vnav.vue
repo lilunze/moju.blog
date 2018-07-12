@@ -1,6 +1,6 @@
 <template>
 	<nav class="nav">
-		<div class="logo"><img src="/static/logo/logo-x.png"></div>
+		<div class="logo"><img src="/static/images/logo/logo-x.png"></div>
 		<ul class="nav_list">
 			<li><router-link to="/home">首页</router-link></li>
 			<li><router-link to="/travel">旅行</router-link></li>

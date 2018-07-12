@@ -13,6 +13,10 @@ import list from '@/components/paper/list'
 import hot from '@/components/paper/hot'
 import landscape from '@/components/paper/landscape'
 import beauty from '@/components/paper/beauty'
+import meowstar from '@/components/paper/meowstar'
+import comic from '@/components/paper/comic'
+import car from '@/components/paper/car'
+
 import travellist from '@/components/travellist'
 import bloglist from '@/components/bloglist'
 import v10001 from '@/components/posts/v10001'
@@ -115,6 +119,18 @@ export default new Router({
                     {
                         path:'beauty',
                         component:beauty
+                    },
+                    {
+                        path:'meowstar',
+                        component:meowstar
+                    },
+                    {
+                        path:'comic',
+                        component:comic
+                    },
+                    {
+                        path:'car',
+                        component:car
                     }
                 ]
             }

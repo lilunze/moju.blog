@@ -4,7 +4,7 @@
 	</div>
 </template>
 <script>
-	import gallery from '@/components/gallery';
+	import gallery from '@/components/paper/gallery';
 	import axios from 'axios';
 	export default {
 		data:function(){
