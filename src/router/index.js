@@ -17,6 +17,7 @@ import meowstar from '@/components/paper/meowstar'
 import comic from '@/components/paper/comic'
 import car from '@/components/paper/car'
 
+// travel & blog
 import travellist from '@/components/travellist'
 import bloglist from '@/components/bloglist'
 import v10001 from '@/components/posts/v10001'

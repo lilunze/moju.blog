@@ -1,12 +1,7 @@
 <template>
 	<div class="post">
-		<h1>生活不止眼前的苟且，还有远方的枸杞岛</h1>
-
-		<div class="desc">
-			<span><i class="author"></i> moju</span>
-			<span><i class="date"></i> 2018-07-05</span>
-			<span><i class="classify"></i> 游记</span>
-		</div>
+		
+		<posthead title="生活不止眼前的苟且，还有远方的枸杞岛" author="MOJU" date="20180705" classify="travel" tag="游记" />
 
 		<p>
 			自从端午整理了一波上海周边好玩的地方，被网上枸杞岛的图片种草，所以最近抽空整理一下枸杞岛的出行攻略，准备有空随时出发。
@@ -144,8 +139,11 @@
 	</div>
 </template>
 <script>
+	import posthead from '@/components/common/posthead'
 	export default {
-
+		components:{
+			posthead
+		}
 	}
 </script>
 <style scoped>
@@ -155,48 +153,6 @@
 		margin: 0 auto;
 		font-size: 16px;
 		color: rgba(0,0,0,0.8);
-	}
-	.post h1
-	{
-		text-align: center;
-		line-height: 80px;
-		padding-top: 50px;
-	}
-	.post .desc
-	{
-		color: #a8a8a8;
-		font-size: 14px;
-		text-align: center;
-		margin-bottom: 20px;
-	}
-	.post .desc span
-	{
-		display: inline-block;
-		margin: 0 10px;
-		line-height: 40px; 
-	}
-	.post .desc i
-	{
-		display: inline-block;
-		vertical-align: top;
-		width: 20px;
-		height: 20px;
-		margin: 10px 5px;
-	}
-	.post .desc .author
-	{
-		background: url(/static/images/icon/author.png);
-		background-size: 100% 100%;
-	}
-	.post .desc .date
-	{
-		background: url(/static/images/icon/date.png);
-		background-size: 100% 100%;
-	}
-	.post .desc .classigy
-	{
-		background: url(/static/images/icon/classify.png);
-		background-size: 100% 100%;
 	}
 	.post p
 	{
