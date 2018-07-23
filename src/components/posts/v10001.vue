@@ -159,10 +159,6 @@
 		margin-bottom: 20px;
 		color: #666;
 	}
-	.post .img
-	{
-		/*text-align: center;*/
-	}
 	.post .img img
 	{
 		max-width: 650px;
