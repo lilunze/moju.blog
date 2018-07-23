@@ -1,6 +1,8 @@
 <template>
 	<div class="post">
 		<posthead title="Vue踩坑记录与总结" author="MOJU" date="20180705" classify="blog" tag="Vue" />
+
+		<p class="ugc">1.vue组件新页面不在顶部bug</p>
 	</div>
 </template>
 <script>

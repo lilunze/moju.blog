@@ -36,7 +36,6 @@
 	{
 		list-style: none;
 		float: right;
-		margin-top: 6px;
 	}
 	.nav_list li
 	{
