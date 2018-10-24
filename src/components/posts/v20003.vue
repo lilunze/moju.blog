@@ -1,5 +1,7 @@
 <template>
-	<div>测试3</div>
+	<div>
+		
+	</div>
 </template>
 <script>
 	export default {
