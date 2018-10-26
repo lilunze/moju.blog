@@ -5,8 +5,36 @@
 			<div class="box box_movie">
 				<h1><img src="/static/images/icon/movie.png">影视资源</h1>
 				<div class="content">
-					<a href="#" @mousemove="showTips($event)" @mouseout="hideTips()" title="鱼骨吧电影网"><img src="/static/images/icon/default.png">鱼骨吧电影网</a>
-					<a href="#" @mousemove="showTips($event)" @mouseout="hideTips()" title="西瓜哥电影网"><img src="/static/images/icon/default.png">西瓜哥电影网</a>
+					<a href="#" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="鱼骨吧电影网"><img src="/static/images/icon/default.png">鱼骨吧电影网</a>
+					<a href="#" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="西瓜哥电影网"><img src="/static/images/icon/default.png">西瓜哥电影网</a>
+				</div>
+			</div>
+
+			<div class="box box_movie">
+				<h1><img src="/static/images/icon/sheyin.png">摄影图片</h1>
+				<div class="content">
+					<a href="http://www.gogoup.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="站酷旗下在线教育品牌，涵盖摄影艺术,摄影后期,绘画插画,平面设计,影视动画等"><img src="/static/images/icon/gogoup.png">高高手</a>
+					<a href="http://www.doyoudo.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="创意设计软件学习平台"><img src="/static/images/icon/doyoudo.png">doyoudo</a>
+					<a href="http://www.poco.cn/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国领先时尚的图片分享平台,最大的以原创图片为核心的分享社区,汇聚百万摄影与视觉爱好者"><img src="/static/images/icon/poco.png">POCO</a>
+					<a href="http://www.xiangshu.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国最具影响力的著名摄影网站,摄友和驴友的家园"><img src="/static/images/icon/xiangshu.png">橡树摄影网</a>
+				</div>
+			</div>
+
+			<div class="box box_movie">
+				<h1><img src="/static/images/icon/design.png">设计</h1>
+				<div class="content">
+					<a href="https://www.3d66.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="模型最多最全的网站"><img src="/static/images/icon/3d66.png">3D溜溜网</a>
+					<a href="https://www.zcool.com.cn/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国人气设计师互动平台"><img src="/static/images/icon/zcool.png">站酷</a>
+					<a href="http://huaban.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="设计师寻找灵感的天堂!图片素材领导者"><img src="/static/images/icon/huaban.png">花瓣网</a>
+				</div>
+			</div>
+
+			<div class="box box_movie">
+				<h1><img src="/static/images/icon/study.png">学习</h1>
+				<div class="content">
+					<a href="http://www.51zxw.net" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="免费视频教程,提供全方位软件学习"><img src="/static/images/icon/51zixue.png">我要自学网</a>
+					<a href="https://study.163.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="专注职业技能提升的在线学习平台"><img src="/static/images/icon/163study.png">网易云课堂</a>
+					<a href="https://ke.qq.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="腾讯推出的专业在线教育平台"><img src="/static/images/icon/tecent.png">腾讯课堂</a>
 				</div>
 			</div>
 		</div>
@@ -29,8 +57,8 @@
 			showTips (e){
 				this.mtop=e.clientY+20;
 				this.mleft=e.clientX+20;
-				if(e.target.attributes.title){
-					this.message=e.target.attributes.title.value
+				if(e.target.attributes.dtitle){
+					this.message=e.target.attributes.dtitle.value
 				}
 				
 				
