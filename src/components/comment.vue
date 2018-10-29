@@ -55,8 +55,9 @@
 		},
 		methods:{
 			showTips (e){
-				this.mtop=e.clientY+20;
-				this.mleft=e.clientX+20;
+				console.log(e)
+				this.mtop=e.pageY+20;
+				this.mleft=e.pageX+20;
 				if(e.target.attributes.dtitle){
 					this.message=e.target.attributes.dtitle.value
 				}
