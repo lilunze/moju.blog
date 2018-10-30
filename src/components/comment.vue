@@ -6,7 +6,9 @@
 				<h1><img src="/static/images/icon/movie.png">影视资源</h1>
 				<div class="content">
 					<a href="#" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="鱼骨吧电影网"><img src="/static/images/icon/default.png">鱼骨吧电影网</a>
-					<a href="#" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="西瓜哥电影网"><img src="/static/images/icon/default.png">西瓜哥电影网</a>
+					<a href="http://xiguage.net/" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="西瓜哥电影网"><img src="/static/images/icon/default.png">西瓜哥电影网</a>
+					<a href="http://www.dushudang.com/" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最新百度云在线点播技术用手机观看免费的电影资源"><img src="/static/images/icon/vipyun.png">VIP云点播</a>
+					<a href="http://www.5ifxw.com/vip/" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最新百度云在线点播技术用手机观看免费的电影资源"><img src="/static/images/icon/vipjiexi.png">VIP在线解析</a>
 				</div>
 			</div>
 
@@ -16,7 +18,7 @@
 					<a href="http://www.gogoup.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="站酷旗下在线教育品牌，涵盖摄影艺术,摄影后期,绘画插画,平面设计,影视动画等"><img src="/static/images/icon/gogoup.png">高高手</a>
 					<a href="http://www.doyoudo.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="创意设计软件学习平台"><img src="/static/images/icon/doyoudo.png">doyoudo</a>
 					<a href="http://www.poco.cn/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国领先时尚的图片分享平台,最大的以原创图片为核心的分享社区,汇聚百万摄影与视觉爱好者"><img src="/static/images/icon/poco.png">POCO</a>
-					<a href="http://www.xiangshu.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国最具影响力的著名摄影网站,摄友和驴友的家园"><img src="/static/images/icon/xiangshu.png">橡树摄影网</a>
+					<a href="http://www.xiangshu.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="支持爱奇艺，腾讯视频，优酷等网站VIP破解"><img src="/static/images/icon/xiangshu.png">橡树摄影网</a>
 				</div>
 			</div>
 
@@ -35,6 +37,7 @@
 					<a href="http://www.51zxw.net" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="免费视频教程,提供全方位软件学习"><img src="/static/images/icon/51zixue.png">我要自学网</a>
 					<a href="https://study.163.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="专注职业技能提升的在线学习平台"><img src="/static/images/icon/163study.png">网易云课堂</a>
 					<a href="https://ke.qq.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="腾讯推出的专业在线教育平台"><img src="/static/images/icon/tecent.png">腾讯课堂</a>
+					<a href="http://www.rrzxw.net/index.html" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最全的自学教程网站,可在线观看免费视频教程"><img src="/static/images/icon/renrenzixue.png">人人自学网</a>
 				</div>
 			</div>
 		</div>
