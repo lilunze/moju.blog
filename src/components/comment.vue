@@ -40,6 +40,13 @@
 					<a href="http://www.rrzxw.net/index.html" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最全的自学教程网站,可在线观看免费视频教程"><img src="/static/images/icon/renrenzixue.png">人人自学网</a>
 				</div>
 			</div>
+
+			<div class="box box_movie">
+				<h1><img src="/static/images/icon/pojie.png">资源破解</h1>
+				<div class="content">
+					<a href="http://www.carrotchou.blog" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="软件分享真正领跑者！一直被抄袭，从未被超越！"><img src="/static/images/icon/carrot.png">胡萝卜周</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
