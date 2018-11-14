@@ -38,6 +38,7 @@
 					<a href="https://study.163.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="专注职业技能提升的在线学习平台"><img src="/static/images/icon/163study.png">网易云课堂</a>
 					<a href="https://ke.qq.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="腾讯推出的专业在线教育平台"><img src="/static/images/icon/tecent.png">腾讯课堂</a>
 					<a href="http://www.rrzxw.net/index.html" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最全的自学教程网站,可在线观看免费视频教程"><img src="/static/images/icon/renrenzixue.png">人人自学网</a>
+					<a href="https://www.udemy.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="是一个在线学习和教学市场，有 80000 余门课程，拥有 24 百万学生。课程包括编程、市场营销、数据科学等等"><img src="/static/images/icon/udemy.png">Udemy</a>
 				</div>
 			</div>
 
@@ -45,6 +46,13 @@
 				<h1><img src="/static/images/icon/pojie.png">资源破解</h1>
 				<div class="content">
 					<a href="http://www.carrotchou.blog" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="软件分享真正领跑者！一直被抄袭，从未被超越！"><img src="/static/images/icon/carrot.png">胡萝卜周</a>
+				</div>
+			</div>
+
+			<div class="box box_movie">
+				<h1><img src="/static/images/icon/job.png">求职/兼职</h1>
+				<div class="content">
+					<a href="https://www.jianzhimao.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="免费、安全、靠谱｜大学生蓝领喜爱的临时工站点"><img src="/static/images/icon/jianzhimao.png">兼职猫</a>
 				</div>
 			</div>
 		</div>
