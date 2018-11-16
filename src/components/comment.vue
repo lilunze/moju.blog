@@ -28,6 +28,9 @@
 					<a href="https://www.3d66.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="模型最多最全的网站"><img src="/static/images/icon/3d66.png">3D溜溜网</a>
 					<a href="https://www.zcool.com.cn/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国人气设计师互动平台"><img src="/static/images/icon/zcool.png">站酷</a>
 					<a href="http://huaban.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="设计师寻找灵感的天堂!图片素材领导者"><img src="/static/images/icon/huaban.png">花瓣网</a>
+					<a href="http://www.hippter.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="为PPTER推荐PPT设计相关网站，为你的PPT设计提供创意灵感、配色方案、免费图片、优质图标、工具插件等"><img src="/static/images/icon/hippter.png">HippTer</a>
+					<a href="https://wordart.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="词云艺术创作者"><img src="/static/images/icon/wordart.png">wordart</a>
+					<a href="https://pixelmap.amcharts.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="创建一个令人惊叹的互动地图与简单易用的用户界面。将其保存为图像或JavaScript代码，方便在自己的网站上发布。"><img src="/static/images/icon/armcharts.png">amCharts</a>
 				</div>
 			</div>
 
@@ -39,6 +42,7 @@
 					<a href="https://ke.qq.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="腾讯推出的专业在线教育平台"><img src="/static/images/icon/tecent.png">腾讯课堂</a>
 					<a href="http://www.rrzxw.net/index.html" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最全的自学教程网站,可在线观看免费视频教程"><img src="/static/images/icon/renrenzixue.png">人人自学网</a>
 					<a href="https://www.udemy.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="是一个在线学习和教学市场，有 80000 余门课程，拥有 24 百万学生。课程包括编程、市场营销、数据科学等等"><img src="/static/images/icon/udemy.png">Udemy</a>
+					<a href="http://www.shufami.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="集成草书隶书书法字典智能实现在线书法字体转换免费下载，提供书法迷行书楷书书法词典查询"><img src="/static/images/icon/hand.png">书法迷</a>
 				</div>
 			</div>
 
@@ -46,6 +50,7 @@
 				<h1><img src="/static/images/icon/pojie.png">资源破解</h1>
 				<div class="content">
 					<a href="http://www.carrotchou.blog" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="软件分享真正领跑者！一直被抄袭，从未被超越！"><img src="/static/images/icon/carrot.png">胡萝卜周</a>
+					<a href="https://www.waitsun.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="精品Mac应用分享"><img src="/static/images/icon/waitsun.png">爱情守望者</a>
 				</div>
 			</div>
 
