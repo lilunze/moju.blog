@@ -9,6 +9,8 @@
 					<a href="http://xiguage.net/" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="西瓜哥电影网"><img src="/static/images/icon/default.png">西瓜哥电影网</a>
 					<a href="http://www.dushudang.com/" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最新百度云在线点播技术用手机观看免费的电影资源"><img src="/static/images/icon/vipyun.png">VIP云点播</a>
 					<a href="http://www.5ifxw.com/vip/" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="最新百度云在线点播技术用手机观看免费的电影资源"><img src="/static/images/icon/vipjiexi.png">VIP在线解析</a>
+					<a href="https://www.dytt8.net" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="免费电影，迅雷电影下载"><img src="/static/images/icon/default.png">电影天堂</a>
+					<a href="http://www.iketvz.cc/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="爱客口袋电影-电影电视剧在线观看,迅雷电影下载,免费电影下载,西瓜影音在线,枪版电影"><img src="/static/images/icon/default.png">爱客口袋电影</a>
 				</div>
 			</div>
 
