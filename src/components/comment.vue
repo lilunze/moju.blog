@@ -21,6 +21,7 @@
 					<a href="http://www.doyoudo.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="创意设计软件学习平台"><img src="/static/images/icon/doyoudo.png">doyoudo</a>
 					<a href="http://www.poco.cn/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国领先时尚的图片分享平台,最大的以原创图片为核心的分享社区,汇聚百万摄影与视觉爱好者"><img src="/static/images/icon/poco.png">POCO</a>
 					<a href="http://www.xiangshu.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="支持爱奇艺，腾讯视频，优酷等网站VIP破解"><img src="/static/images/icon/xiangshu.png">橡树摄影网</a>
+					<a href="http://www.fengniao.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="中国专业摄影门户网站"><img src="/static/images/icon/fengniao.png">蜂鸟摄影</a>
 				</div>
 			</div>
 
@@ -53,6 +54,7 @@
 				<div class="content">
 					<a href="http://www.carrotchou.blog" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="软件分享真正领跑者！一直被抄袭，从未被超越！"><img src="/static/images/icon/carrot.png">胡萝卜周</a>
 					<a href="https://www.waitsun.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="精品Mac应用分享"><img src="/static/images/icon/waitsun.png">爱情守望者</a>
+					<a href="http://52sharing.cn" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="免费分享最新的影视资源、优质的学习资料、精品软件资源、优质电子书资源等"><img src="/static/images/icon/default.png">吾爱分享</a>
 				</div>
 			</div>
 
@@ -60,6 +62,13 @@
 				<h1><img src="/static/images/icon/job.png">求职/兼职</h1>
 				<div class="content">
 					<a href="https://www.jianzhimao.com/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="免费、安全、靠谱｜大学生蓝领喜爱的临时工站点"><img src="/static/images/icon/jianzhimao.png">兼职猫</a>
+				</div>
+			</div>
+
+			<div class="box box_movie">
+				<h1><img src="/static/images/icon/tools.png">工具</h1>
+				<div class="content">
+					<a href="https://www.lightpollutionmap.info/" target="_blank" @mousemove="showTips($event)" @mouseout="hideTips()" dtitle="查询全球光污染"><img src="/static/images/icon/default.png">lightpollutionmap</a>
 				</div>
 			</div>
 		</div>
